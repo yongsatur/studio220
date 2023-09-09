@@ -51,9 +51,9 @@
 
 		" Here are the details:\n Name: $name \n ".
 
-		"Email: $email_address\n Message \n $message";
+		"Email: $email\n Message \n $message";
 
-		$headers = "From: $myemail\n";
+		$headers = "From: $my_email\n";
 
 		$headers .= "Reply-To: $email";
 
