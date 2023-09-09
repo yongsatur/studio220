@@ -540,29 +540,30 @@
 					<!-- Контактная форма -->
 					<div class="col-xl-8 col-lg-8 col-md-7 col-12 wow animate__slideInUp" 
 						 data-wow-duration="1.75s">
-						<form class="row" action="php/send_email.php" method="POST">
+						<form id="google_form" class="row" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSeosjgMVLI44YcpcydLH_gutoCL40ySxs_10dszOzcqMtISAg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 							<div class="col-12">
-								<input type="text" name="name" autocomplete="name"
+								<input type="text" name="entry.221769409" id="entry.221769409" autocomplete="name"
 									   placeholder="Имя" 
 									   pattern="[А-Яа-яЁё]{2,}" title="Имя должно быть на русском языке."/>
 							</div>
 							<div class="col-xl-6 col-lg-6 col-12">
-								<input type="tel" name="phone" autocomplete="tel"
+								<input type="tel" name="entry.303732326" id="entry.303732326" autocomplete="tel"
 									   placeholder="Номер телефона"/>
 							</div>
 							<div class="col-xl-6 col-lg-6 col-12">
-								<input type="email" name="email" autocomplete="email"
+								<input type="email" name="entry.587358009" id="entry.587358009" autocomplete="email"
 									   placeholder="Почта: example@mail.ru" 
 									   pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required/>
 							</div>
 							<div class="col-12">
-								<textarea name="message" rows="5" 
+								<textarea name="entry.1773859732" id="entry.1773859732" rows="5" 
 										  placeholder="Сообщение..." required></textarea>
 							</div>
 							<div class="col-12 actions">
 								<input type="submit" value="Отправить"/>
 							</div>
 						</form>
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 					</div>
 					<!-- Карта -->
 					<!--<div class="col-12 wow animate__zoomIn" data-wow-duration="2s">
@@ -678,5 +679,12 @@
         <script src="plugins/mousewheel/jquery.mousewheel.min.js" type="text/javascript"></script>
         <script src="plugins/wow.min.js"></script>
         <script src="plugins/plugins.js" type="text/javascript"></script>
+		<script type="text/javascript">var submitted=false;</script>
+		<script type="text/javascript">
+			$('#google_form').on('submit', function(e) {
+			$('#google_form *').fadeOut(2000);
+			$('#google_form').prepend('Your submission has been processed...');
+			});
+		</script>
 	</body>
 </html>
