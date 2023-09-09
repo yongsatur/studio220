@@ -21,7 +21,7 @@
 	echo $email;*/
 
 	$errors = '';
-	$my_email = 'contact@studio220.com';
+	$my_email = 'aurorainmadtown@gmail.com';
 	if(empty($_POST['name'])  || 
 	   empty($_POST['email']) || 
 	   empty($_POST['message']))
