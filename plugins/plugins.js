@@ -58,3 +58,13 @@ $('#owl-carousel-gallery').on('mousewheel', '.owl-stage', function (e) {
     }
     e.preventDefault();
 });
+
+$('#google_form').on('submit', function (e) {
+	Swal.fire({
+	  	text: 'Ваше сообщение было успешно отправлено!',
+		padding: '2em',
+		color: '#303030',
+	  	confirmButtonColor: '#303030'
+	});
+	$("#google_form")[0].reset();
+});
