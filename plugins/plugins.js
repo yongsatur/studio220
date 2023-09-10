@@ -61,10 +61,16 @@ $('#owl-carousel-gallery').on('mousewheel', '.owl-stage', function (e) {
 
 $('#google_form').on('submit', function (e) {
 	Swal.fire({
-	  	text: 'Ваше сообщение было успешно отправлено!',
-		padding: '2em',
-		color: '#303030',
-	  	confirmButtonColor: '#303030'
+		showClass: {
+			popup: 'animate__animated animate__fadeInDown'
+		},
+		hideClass: {
+			popup: 'animate__animated animate__fadeOutUp'
+		},
+		text: 'Ваше сообщение было успешно отправлено!',
+		padding: '1.5em'
 	});
-	$("#google_form")[0].reset();
+	setTimeout(function () {
+		$('#google_form')[0].reset();
+	}, 1500);
 });
