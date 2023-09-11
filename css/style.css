@@ -208,20 +208,19 @@ ul li {
 }
 @media (max-width: 991px) {
   .icons i {
-    font-size: 24px;
-    margin-right: 20px;
+    font-size: 26px;
+    margin-right: 25px;
   }
 }
 @media (max-width: 767px) {
   .icons i {
-    font-size: 20px;
-    margin-right: 20px;
+    font-size: 24px;
+    margin: 0px 10px;
   }
 }
 @media (max-width: 575px) {
   .icons i {
-    font-size: 18px;
-    margin-right: 15px;
+    font-size: 22px;
   }
 }
 /* ----- Стили для блоков ----- */
@@ -683,9 +682,6 @@ footer .container .copyright p {
   footer .container .icons {
     justify-content: center;
   }
-  footer .container .icons i {
-    margin: 0px 10px;
-  }
   footer .container .copyright {
     margin-top: 25px;
   }
@@ -791,9 +787,6 @@ footer .container .copyright p {
     margin-bottom: 15px;
     font-size: 17px;
   }
-  #contacts .info .icons i {
-    margin: 0px 7px;
-  }
   #gallery img {
     height: 200px;
   }
@@ -802,12 +795,6 @@ footer .container .copyright p {
   }
   footer .container .address h1 {
     margin: 15px;
-  }
-  footer .container .icons {
-    justify-content: center;
-  }
-  footer .container .icons i {
-    margin: 0px 7px;
   }
   footer .container .copyright {
     margin-top: 15px;
@@ -913,9 +900,6 @@ footer .container .copyright p {
   #contacts .info ul li span {
     margin-bottom: 7px;
     font-size: 12px;
-  }
-  #contacts .info .icons i {
-    margin: 0px 5px;
   }
   footer {
     padding: 30px 0px 10px 0px;
