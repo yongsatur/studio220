@@ -53,8 +53,8 @@
      inkscape:deskcolor="#505050"
      showgrid="false"
      inkscape:zoom="1.5371094"
-     inkscape:cx="157.11309"
-     inkscape:cy="116.12706"
+     inkscape:cx="157.76366"
+     inkscape:cy="115.47649"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
@@ -81,18 +81,18 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.15625px;line-height:0.9;font-family:Haettenschweiler;-inkscape-font-specification:Haettenschweiler;text-align:center;text-anchor:middle;fill:#1e1e1e;stroke-width:0.000265748"
-       x="8.9962234"
-       y="8.4848785"
+       x="9.0050354"
+       y="8.5354023"
        id="text2"><tspan
          sodipodi:role="line"
          id="tspan2"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.15625px;line-height:0.9;font-family:Haettenschweiler;-inkscape-font-specification:Haettenschweiler;stroke-width:0.000265748"
-         x="8.9962234"
-         y="8.4848785">STUDIO</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:5.15625px;line-height:0.9;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';stroke-width:0.000265748"
+         x="9.0050354"
+         y="8.5354023">STUDIO</tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.15625px;line-height:0.9;font-family:Haettenschweiler;-inkscape-font-specification:Haettenschweiler;stroke-width:0.000265748"
-         x="8.9962234"
-         y="13.125504"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:5.15625px;line-height:0.9;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';stroke-width:0.000265748"
+         x="9.0050354"
+         y="13.404799"
          id="tspan3">220</tspan></text>
   </g>
 </svg>
