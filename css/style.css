@@ -463,11 +463,12 @@ nav .menu ul li a:hover {
 #contacts .info ul li a {
   font-family: sans-serif;
 }
-#contacts .info ul li a:hover ~ span {
-  color: #d8ab4e;
-}
 #contacts .info .icons {
   justify-content: flex-start;
+}
+#contacts .label {
+  margin-bottom: 30px;
+  font-family: "Oswald", fantasy;
 }
 #gallery {
   padding: 100px 0px;
@@ -666,6 +667,10 @@ footer .container .copyright p {
   #contacts .info .icons {
     justify-content: center;
   }
+  #contacts .label {
+    margin-bottom: 25px;
+    text-align: center;
+  }
   #gallery {
     padding: 50px 0px;
   }
@@ -787,6 +792,9 @@ footer .container .copyright p {
     margin-bottom: 15px;
     font-size: 17px;
   }
+  #contacts .label {
+    margin-bottom: 20px;
+  }
   #gallery img {
     height: 200px;
   }
@@ -900,6 +908,9 @@ footer .container .copyright p {
   #contacts .info ul li span {
     margin-bottom: 7px;
     font-size: 12px;
+  }
+  #contacts .label {
+    margin-bottom: 15px;
   }
   footer {
     padding: 30px 0px 10px 0px;
